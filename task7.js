@@ -7,6 +7,6 @@ for (let i = 0; i < 8; i++) {
             console.log("#");
         }
     
-    } confirmt.log("");
+    } console.log("");
    
 } console.log("\n");

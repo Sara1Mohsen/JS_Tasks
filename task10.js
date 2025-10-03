@@ -4,14 +4,16 @@ document.getElementById("card-text").innerHTML =
 
 function square() {
     let n = prompt("Enter num:");
-    for (let i = 0; i < num; i++) {
+    let shape = "";
+    let stars   = "*";
+    for (let i = 0; i < n; i++) {
         document.getElementById("card-text").innerHTML += n + "<br>";
         n += "#";    
     }
 }
 function triangle() {
     let n = prompt("Enter num:");
-    for (let i = num; i >= 1; i--) {
+    for (let i = n; i >= 1; i--) {
         document.getElementById("card-text").innerHTML += n + "<br>";
         n -= "#";    
     }
